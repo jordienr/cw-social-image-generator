@@ -1,0 +1,8 @@
+name = "social-image-generator"
+type = "webpack"
+
+account_id = "752a739748f7e33396f305bfe7c4f14a"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-04-09"

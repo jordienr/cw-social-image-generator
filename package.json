@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "social-image-generator",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Jordi <jordi.err@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@cloudflare/wrangler": "^1.19.11",
+    "canvas": "2.7"
+  }
+}
